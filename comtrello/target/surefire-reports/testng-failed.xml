@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Trello]">
+  <test thread-count="5" verbose="0" name="Login(failed)">
+    <classes>
+      <class name="regression.CardsAction">
+        <methods>
+          <include name="prepareData"/>
+          <include name="clearData"/>
+          <include name="addLabels"/>
+          <include name="setUpSuite"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- regression.CardsAction -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Trello] -->

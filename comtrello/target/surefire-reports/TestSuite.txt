@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.836 s <<< FAILURE! - in TestSuite
+addLabels(regression.CardsAction)  Time elapsed: 1.078 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at regression.CardsAction.addLabels(CardsAction.java:103)
+

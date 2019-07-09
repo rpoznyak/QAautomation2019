@@ -1,0 +1,153 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression",
+    "children" : [ {
+      "name" : "Test Trello card",
+      "children" : [ {
+        "name" : "moveCard",
+        "uid" : "84f0208f748f8d29",
+        "parentUid" : "e52c67a3255c4be35b30ad5c39949c2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562608920044,
+          "stop" : 1562608920044,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e52c67a3255c4be35b30ad5c39949c2a"
+    }, {
+      "name" : "Preconditions",
+      "children" : [ {
+        "name" : "Login user",
+        "children" : [ {
+          "name" : "login",
+          "uid" : "58beeeca9cd2f518",
+          "parentUid" : "3f5a3c852a1c071750a73b7b7af24aae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1562610830106,
+            "stop" : 1562610832261,
+            "duration" : 2155
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3f5a3c852a1c071750a73b7b7af24aae"
+      }, {
+        "name" : "Open card created by API",
+        "children" : [ {
+          "name" : "openCard",
+          "uid" : "264230f3a0c07d33",
+          "parentUid" : "0a9d69d8adb868436ccee7d8d6480e38",
+          "status" : "passed",
+          "time" : {
+            "start" : 1562610832482,
+            "stop" : 1562610837335,
+            "duration" : 4853
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0a9d69d8adb868436ccee7d8d6480e38"
+      } ],
+      "uid" : "eb6da0d20afbc9672fe3bc5ca4e89a36"
+    }, {
+      "name" : "Add action",
+      "children" : [ {
+        "name" : "Add new members to the Card",
+        "children" : [ {
+          "name" : "addMembers",
+          "uid" : "6a57d8c4d4f053c4",
+          "parentUid" : "10f5ebfbed0adfb48091cc57aacdcb65",
+          "status" : "passed",
+          "time" : {
+            "start" : 1562610837351,
+            "stop" : 1562610838687,
+            "duration" : 1336
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "10f5ebfbed0adfb48091cc57aacdcb65"
+      }, {
+        "name" : "Add labels",
+        "children" : [ {
+          "name" : "addLabels",
+          "uid" : "929c22932c2b9ead",
+          "parentUid" : "0f75ec0cd1a5eb0b5a337b97dd4a262f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1562610838707,
+            "stop" : 1562610839780,
+            "duration" : 1073
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0f75ec0cd1a5eb0b5a337b97dd4a262f"
+      }, {
+        "name" : "Add Desciption",
+        "children" : [ {
+          "name" : "addDescription",
+          "uid" : "6d19bffaad86946",
+          "parentUid" : "77de0d6929da71f29287c04def492022",
+          "status" : "passed",
+          "time" : {
+            "start" : 1562610839799,
+            "stop" : 1562610844989,
+            "duration" : 5190
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "77de0d6929da71f29287c04def492022"
+      }, {
+        "name" : "Add checklist",
+        "children" : [ {
+          "name" : "addChecklist",
+          "uid" : "e740cdcc8e3ca1e2",
+          "parentUid" : "b4274f4321d1d0af133d2435f5e0a2fd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1562610845001,
+            "stop" : 1562610846017,
+            "duration" : 1016
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b4274f4321d1d0af133d2435f5e0a2fd"
+      }, {
+        "name" : "Add Due Date",
+        "children" : [ {
+          "name" : "addDueDate",
+          "uid" : "3af484c7e13fa172",
+          "parentUid" : "e45c2ce6fd652b1109b7065b78356004",
+          "status" : "passed",
+          "time" : {
+            "start" : 1562610846032,
+            "stop" : 1562610847655,
+            "duration" : 1623
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e45c2ce6fd652b1109b7065b78356004"
+      } ],
+      "uid" : "b57e6f94b64e0e8eac0f9df99ce52b3b"
+    } ],
+    "uid" : "03c2c43ea40815c27306e3934ff482fd"
+  } ]
+}
